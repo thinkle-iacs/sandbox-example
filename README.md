@@ -5,6 +5,7 @@ Welcome to our simple web design sandbox! This project is designed to help you g
 Instructions for understanding GitHub CodeSpaces are below.
 
 In this document, you will find:
+
 - [How to "run" your page](#running-the-project)
 - [How to see your page side-by-side](#viewing-your-project)
 - [Editing your files](#editing-your-project)
@@ -12,28 +13,30 @@ In this document, you will find:
 - [Saving your work to version control]()
 
 ## Running the Project
+
 1. Open the project in VS Code.
 2. Click on the "Run and Debug" button on the sidebar (it looks like a play button).
 3. Select "Open with Live Server" from the drop-down menu.
 4. Click the green play button. This will start a local server and open your project in a web browser.
 5. If this fails, you could try to [start from the terminal instead](#starting-from-the-terminal)
-![play-screenshot](screenshots/play-github.png)
+   ![play-screenshot](screenshots/play-github.png)
 
 ## Viewing Your Project
-![Screenshot of Ports view](./screenshots/ports-github.png)
-   - You should see a pop up asking if you want to open the page after you hit "play" to run your project. If you click on it, it will open your webpage in a new tab.
-   - You can click on "Ports" at the bottom of the screen to see the web connection on your computer.
-   
-     If you hover over the "Forwarded Address" column, you'll see a "side-by-side" icon that will show
-    the webpage inside your coding editor, or a "Globe" icon that will show the icon inside your web 
-    browser in a new tab.
 
+![Screenshot of Ports view](./screenshots/ports-github.png)
+
+- You should see a pop up asking if you want to open the page after you hit "play" to run your project. If you click on it, it will open your webpage in a new tab.
+- You can click on "Ports" at the bottom of the screen to see the web connection on your computer.
+
+  If you hover over the "Forwarded Address" column, you'll see a "side-by-side" icon that will show
+  the webpage inside your coding editor, or a "Globe" icon that will show the icon inside your web
+  browser in a new tab.
 
 ## Editing Your Project
 
 - Choose the "File Explorer" tab to see your files,
   and then look for your webpage code under the "public" folder.
-![img](./screenshots/github-file-editor.png)
+  ![img](./screenshots/github-file-editor.png)
 
 - **index.html**: This is your HTML file. Edit it to change the structure of your web page.
 - **style.css**: This is your CSS file. Modify it to change the styling of your web page.
@@ -53,7 +56,25 @@ get automatic code formatting set up as well as github copilot (an AI tool to tr
 
 ## Saving Your Work to Version Control
 
+Your "Codespace" is temporary (GitHub will keep it around for only a few weeks if you aren't using it actively), so you need to always save your work to version control after you are done.
 
+GitHub version control can store all of your work as well as every change you've "committed", which means you can go back in time and see what changes
+you made.
+
+When you make changes to files, you will see the number of uncommitted changes you've made show up on the version control icon on the sidebar.
+
+1. Click on the version control icon to see what changes you've made. Then click "+" to "stage"
+   the change (you could also undo your changes here
+   if you wanted to go back to the last committed
+   version in the future)
+   ![img](./screenshots/vc-1.png)
+
+2. Type a "change log" message describing what you changed in your code and then click "Commit" to save your changes to your local version control.
+   ![img](./screenshots/vc-2.png)
+
+3. Click "Sync Changes" to push your changes from the local GitHub Codespace to your permanent GitHub repository. You'll have to click a confirmation popup as well.
+   ![img](./screenshots/vc-3.png)
+   ![img](./screenshots/vc-4.png)
 
 ## Starting from the Terminal
 
@@ -62,5 +83,4 @@ type a command to run your project locally.
 
 1. Open the terminal in VS Code (use the "Terminal" tab at the bottom)
 2. Type `npm start` and press Enter. This will start a local server and open your project in a web browser.
-![Terminal Screenshot](./screenshots/terminal-github.png)
-
+   ![Terminal Screenshot](./screenshots/terminal-github.png)

@@ -7,3 +7,16 @@ body {
 h1 {
   color: orange;
 }
+
+figure {
+  max-width: 80%;
+  text-align: center;
+}
+
+img {
+  max-width: 80%;
+}
+
+figcaption {
+  font-size: small;
+}
