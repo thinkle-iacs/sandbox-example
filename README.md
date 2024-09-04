@@ -10,7 +10,8 @@ In this document, you will find:
 - [How to see your page side-by-side](#viewing-your-project)
 - [Editing your files](#editing-your-project)
 - [Setting up Codespaces Extensions](#adding-extensions)
-- [Saving your work to version control]()
+- [Saving your work to version control](#saving-your-work-to-version-control)
+- [Adding Images](#adding-images)
 
 ## Running the Project
 
@@ -75,6 +76,34 @@ When you make changes to files, you will see the number of uncommitted changes y
 3. Click "Sync Changes" to push your changes from the local GitHub Codespace to your permanent GitHub repository. You'll have to click a confirmation popup as well.
    ![img](./screenshots/vc-3.png)
    ![img](./screenshots/vc-4.png)
+
+## Adding Images
+
+### Naming Images
+
+I recommend giving images simple filenames with no spaces or special characters.
+You can rename images in GitHub by selecting the file and pressing "Enter" or choosing
+"Rename" from the right-click menu.
+
+### Image Rights
+
+Before you upload images to your project, you should make sure you have the right to
+use them, either because you created them yourself, or because you found an image in
+the public domain or with a creative commons license that allows re-use. Wikipedia
+or the Wikimedia commons can be good sources of reusable images. 
+
+### Adding Images to GitHub CodeSpaces
+
+You can add images or other files to your project in GitHub Codespaces either
+by dragging and dropping them onto the File Explorer or by using the right-click
+menu and selecting upload.
+
+If you put files in the wrong place, you can drag-and-drop to move them.
+
+Images you want to include in your project should be in the "public" folder. 
+I recommend organizing them inside of a separate "images" folder for easy
+file management.
+
 
 ## Starting from the Terminal
 
