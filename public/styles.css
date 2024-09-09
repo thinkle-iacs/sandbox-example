@@ -1,11 +1,11 @@
 body {
   padding: 0;
-  background-color: slategray;
-  color: navajowhite;
+  background-color: rgb(114, 61, 192);
+  color: rgb(234, 244, 209);
 }
 
 h1 {
-  color: orange;
+  color: rgb(238, 209, 155);
 }
 
 figure {
